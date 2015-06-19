@@ -1,10 +1,23 @@
-*{margin: 0; padding: 0;}
-h1{color: teal; margin-left: 10%;}
-html,body{background: black; width:100%; height:100%;}
-div#window{width: inherit; height: inherit; margin:auto; display: block;}
-section{ opacity: 0.7;width: 80%; height: 22em;margin:0 auto; text-align: center; background: black; display: block; clear: both; position: relative;}
-section:hover{opacity: 1;}
-h2.name {margin: 0.5em auto 0 auto; color: white;}
-div.intro{width: 100%; height: 100%; }
-div.intro img{height: 85%; margin: 1em auto; cursor: pointer;}
-#canvas{background: black; margin: auto; display: block;}
+@font-face {
+  font-family: 'Cent';
+  src: url('fonts/Cent.eot');
+  src: url('fonts/Cent.eot?iefix') format('eot'),
+       url('fonts/Cent.ttf') format('truetype');
+}
+
+html, body, #window{
+    background: black;
+}
+h2.name {
+    font-family: 'Cent';
+    text-align: center;
+    color: white;
+}
+#canvas{
+    background: black; 
+    margin: auto; 
+    display: block;
+}
+.img-responsive{
+    margin: auto;
+}
