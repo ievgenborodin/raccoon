@@ -12,4 +12,4 @@
 
 ### Play it here
 
-Link to :video_game: http://feverart.com/
+Link to :video_game: http://ievgenborodin.com/apps/raccoon
